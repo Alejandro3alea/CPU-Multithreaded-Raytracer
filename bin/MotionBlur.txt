@@ -1,0 +1,41 @@
+# Spheres
+SPHERE (-0.6,0.3,1.0) 0.3
+DIFFUSE (0.4,0.4,0.72) 
+# TIME <movement duration> <vector from destination (position) to origin>
+SPHERE (0.4,0.9,0.5) 0.3 TIME 8 (-1.0,-0.6,0)
+DIFFUSE (0.88,0.72,0.4) 
+SPHERE (-0.6,0.3,0.0) 0.3
+DIFFUSE (1.0,0.88,0.72)
+SPHERE (-0.6,1.2,-0.8) 0.3 TIME 8 (0.0,-0.8,0)
+DIFFUSE (0.9,0.8,0.9) 
+SPHERE (-0.6,0.3,-1.0) 0.3
+DIFFUSE (0.88,0.6,0.6)
+SPHERE (-0.6,0.3,-1.5) 0.3
+DIFFUSE (0.88,0.9,0.8)
+SPHERE (-0.6,0.3,-2.0) 0.3
+DIFFUSE (-0.6,0.72,0.75)
+SPHERE (-0.6,0.3,-2.5) 0.3
+DIFFUSE (0.88,0.72,0.88)
+SPHERE (-0.6,0.3,-3.0) 0.3
+DIFFUSE (0.88,0.88,0.65)
+SPHERE (-0.6,0.3,-3.5) 0.3
+DIFFUSE (0.88,0.72,0.6)
+SPHERE (-0.6,0.3,-4.0) 0.3
+DIFFUSE (0.4,0.72,0.85)
+SPHERE (-0.6,0.3,-4.5) 0.3
+DIFFUSE (0.88,0.8,0.8)
+SPHERE (-0.6,0.3,-5.0) 0.3
+DIFFUSE (0.88,0.95,0.45)
+SPHERE (2,0.3,-5.5) 0.3 TIME 10 (-2.6,0,0)
+DIFFUSE (0.88,0.32,0.93) 
+
+# floor
+POLYGON 4 (-50,0,-50)  (-50,0,50) (50,0,50) (50,0,-50)
+DIFFUSE (0.74,0.33,0.2)
+
+# sky spheres
+LIGHT (0.0,0.0,0.0) 100 (1,1,1) 
+
+AMBIENT 0.0,0.0,0.0)
+
+CAMERA (0.0,0.5,2.5) (-0.0,0.5,-0.5) (0,1,0) 1

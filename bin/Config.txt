@@ -1,0 +1,11 @@
+# Config file
+MAX_BOUNCES 25
+SAMPLE_COUNT 10000
+
+# Antialiasing
+ANTIALIASING 1
+
+# Depth of field
+DOF 0
+FOCAL_LEN 1.0
+APERTURE 0.2
